@@ -9,21 +9,14 @@ namespace Aplicativo_teste
     internal static class Program
     {
         /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
+        /// Versão do aplicativo 0.0.1
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-
-            telainicial();
-
-        }
-        static void telainicial()
-        {
-            
+            Application.Run(new inicio());
         }
     }
 }

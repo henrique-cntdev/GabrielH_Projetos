@@ -1,6 +1,6 @@
 ﻿namespace Aplicativo_teste
 {
-    partial class Form1
+    partial class inicio
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,13 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.Btn_1 = new System.Windows.Forms.Button();
+            this.Txt_title = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.SuspendLayout();
+            // 
+            // Btn_1
+            // 
+            this.Btn_1.Location = new System.Drawing.Point(136, 50);
+            this.Btn_1.Name = "Btn_1";
+            this.Btn_1.Size = new System.Drawing.Size(262, 23);
+            this.Btn_1.TabIndex = 0;
+            this.Btn_1.Text = "Botão 1";
+            this.Btn_1.UseVisualStyleBackColor = true;
+            this.Btn_1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Txt_title
+            // 
+            this.Txt_title.AutoSize = true;
+            this.Txt_title.Location = new System.Drawing.Point(153, 9);
+            this.Txt_title.Name = "Txt_title";
+            this.Txt_title.Size = new System.Drawing.Size(221, 13);
+            this.Txt_title.TabIndex = 1;
+            this.Txt_title.Text = "Bem vindo a o sistema de controle financeiro ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(81, 95);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(385, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.save_ok);
+            // 
+            // inicio
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(572, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Txt_title);
+            this.Controls.Add(this.Btn_1);
+            this.Name = "inicio";
+            this.Text = "Controle financeiro";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Btn_1;
+        private System.Windows.Forms.Label Txt_title;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

@@ -8,3 +8,4 @@ C:\Users\Gabriel\source\repos\Aplicativo teste\Aplicativo teste\obj\Debug\Aplica
 C:\Users\Gabriel\source\repos\Aplicativo teste\Aplicativo teste\obj\Debug\Aplicativo teste.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel\source\repos\Aplicativo teste\Aplicativo teste\obj\Debug\Aplicativo teste.exe
 C:\Users\Gabriel\source\repos\Aplicativo teste\Aplicativo teste\obj\Debug\Aplicativo teste.pdb
+C:\Users\Gabriel\source\repos\Aplicativo teste\Aplicativo teste\obj\Debug\Aplicativo_teste.inicio.resources
